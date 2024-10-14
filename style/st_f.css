@@ -1,0 +1,70 @@
+@font-face {
+    font-family: yakan;
+    src: url('../fonts/B\ Yekan+.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(48, 61, 102);
+}
+
+
+.content_box{
+    width: 700px;
+    height: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    border-radius: 10px 25px;
+    font-family: yakan;
+    background-color: rgb(23, 30, 53);
+    box-shadow: 0 0 20px rgb(88, 88, 88);
+    position: relative;
+}
+
+
+.text{
+    color: aliceblue;
+    position: absolute;
+    width: 350px;
+    /* padding: 20px; */
+    top: 20px;
+    left: 40px;
+    text-align: justify;
+}
+.profile_box{
+    width: 250px;
+    height: 380px;
+    margin: auto;
+    background-color: rgb(27, 47, 75);
+    border-radius: 10px 25px ;
+    position: absolute;
+    box-shadow: 0 0 6px rgb(37, 37, 37);
+    right: 30px;
+    top: -30px;
+}
+
+.profile_box img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 25px 0 0;
+ }
+
+.icon {
+    list-style-type: none;
+    color: rgb(211, 172, 0);
+    font-size: 18px;
+    margin: 15px;
+}
+
+.icon i{
+    margin-left: 10px;
+    color: rgb(238, 155, 0);
+    font-size: 18px;
+ } 
+
+ 
+
